@@ -11,8 +11,7 @@ Tutorial on setting up a sample restAPI for 2dSpatial objects using MongoDB and 
 
 ## DESCRIPTION:
 
-A lightweight restAPI for 2dGeoSpatial objects using MongoDB / Mongoose and Express.js / Node.js
-
+A lightweight restAPI for 2dGeoSpatial objects using MongoDB / Mongoose and Express.js / Node.js. 
 This is not a complete / production rest/api, but a simple sample to start with 2dGeospatial objects in MongoDB.
 
 ## FEATURES:
@@ -27,6 +26,7 @@ This is not a complete / production rest/api, but a simple sample to start with 
   - node.js
   - express.js
   - mongoose driver
+
 
 * (optional) pick some tools like
   - rest client like ECHO 
@@ -49,8 +49,10 @@ Here are ALL the available options for the API
 
     POST /rest/insertdata {geo:lon,lat}
 
-2.- Read data with max distance <dis> from a location <loc>
+2.- Read data with max distance :dis from a location :loc
+    
     GET /rest/readlocdata/:loc/:dis
 
 3.- Read all data 
+    
     GET /rest/readalldata
